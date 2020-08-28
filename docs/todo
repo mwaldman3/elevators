@@ -1,4 +1,13 @@
-- Elevators
+- ELEVATORS
+
 - Import local on mac / set up commits
 - bring in git aliases (git co / git b / git st)
+  - but NOT the git commands (put / finish / get) ... learn some actual git :)
 - GOOD dev environment: a real IDE for rust :)
+- separate MAIN and LIB files
+- separate tests folder? copy layout from Starship
+- plan out ACTUAL workflow!!
+- STARSHIP: reinstall from source, edit 'via', etc
+  - STARSHIP on windows :)
+- SKULLS game (python)
+- move todos to github :)
