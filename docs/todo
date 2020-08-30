@@ -1,13 +1,15 @@
 - ELEVATORS
 
-- Import local on mac / set up commits
-- bring in git aliases (git co / git b / git st)
+x Import local on mac / set up commits
+- bring in git aliases (git co / git b / git st) to windows
   - but NOT the git commands (put / finish / get) ... learn some actual git :)
 - GOOD dev environment: a real IDE for rust :)
+  - or stick with VIM plus plugins
 - separate MAIN and LIB files
 - separate tests folder? copy layout from Starship
 - plan out ACTUAL workflow!!
 - STARSHIP: reinstall from source, edit 'via', etc
   - STARSHIP on windows :)
-- SKULLS game (python)
-- move todos to github :)
+- THORNS (SKULLS) game (python)
+        - also web-hosted! play on mobile!!!
+x move todos to github :)

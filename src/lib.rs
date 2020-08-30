@@ -1,6 +1,20 @@
+enum PersonStatus {
+    Waiting,
+    OnElevator,
+}
+impl Default for PersonStatus {
+    fn default() -> Self {
+        PersonStatus::Waiting
+    }
+}
 #[derive(Default)]
 struct Person {
     floor: i32,
+    start_time: i32,
+    end_time: i32,
+    start_floor: i32,
+    destination_floor: i32,
+    status: PersonStatus,
 }
 enum Direction {
     GoingUp,
@@ -24,12 +38,12 @@ impl<'a> Elevator<'a> {
     pub fn add_person(&mut self, p: &'a Person) {
         self.people.push(p);
     }
-    pub fn wait(&steps: i32) {
+    pub fn wait(&mut self, steps: i32) {
         self.current_direction = Direction::Stationary;
         self.steps_to_next += steps;
     }
 
-    pub fn step() {
+    pub fn step(&mut self) {
         if self.steps_to_next == 0 {
             println!("action!");
         }
